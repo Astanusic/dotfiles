@@ -4,15 +4,15 @@
 
 local opts = { noremap = true, silent = true }
 
-vim.keymap.set("", "<C-z>", "<Nop>", opts)
+-- vim.keymap.set("", "<C-z>", "<Nop>", opts)
 
 -- vim.keymap.set("", "<C-s>", ":w!<CR>", opts)
 vim.keymap.set("", "<C-q>", ":q!<CR>", opts)
 vim.keymap.set("", "<C-z>", ":wqa!<CR>", opts)
 
 vim.keymap.set("", "<M-q>", ":copen<cr>", opts)
-vim.keymap.set("", "]q", ":cnext<cr>", opts)
-vim.keymap.set("", "[q", ":cprev<cr>", opts)
+-- vim.keymap.set("", "]q", ":cnext<cr>", opts)
+-- vim.keymap.set("", "[q", ":cprev<cr>", opts)
 
 -- Better window navigation
 vim.keymap.set("n", "<C-h>", "<C-w>h", opts)
